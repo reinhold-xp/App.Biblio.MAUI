@@ -4,7 +4,7 @@
              x:Class="Biblio.MAUI.View.ResumePage"
              Title="{Binding Book.titre}">
 
-    <StackLayout >
+
         <ScrollView>
             <Label  Text="{Binding Book.resume}"
                 Margin="20"
@@ -13,5 +13,5 @@
 
         </ScrollView>
 
-    </StackLayout>
+  
 </ContentPage>

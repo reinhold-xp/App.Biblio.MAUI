@@ -5,7 +5,7 @@
              xmlns:viewmodel="clr-namespace:Biblio.MAUI.ViewModel"
              x:Class="Biblio.MAUI.View.BooksPage"
              x:DataType="viewmodel:BookViewModel"
-             Title="Bibliothèque">
+             >
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Trier" Clicked="ToolbarItem_Clicked"/>

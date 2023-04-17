@@ -5,7 +5,6 @@
              xmlns:viewmodel="clr-namespace:Biblio.MAUI.ViewModel"
              x:Class="Biblio.MAUI.View.BookmarksPage"
              x:DataType="viewmodel:BookViewModel"
-             Title="Favoris"
              >
 
     <ContentPage.ToolbarItems>

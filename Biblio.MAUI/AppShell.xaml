@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Biblio.MAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:Biblio.MAUI.View"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!-- Barre d'onglets -->
+
+    <TabBar>
+        <Tab Title="Bibliothèque" Icon="home.png">
+            <ShellContent
+                ContentTemplate="{DataTemplate view:BooksPage}"
+                Route="BooksPage" />
+        </Tab>
+        <Tab Title="Favoris" Icon="bookmark.png">
+            <ShellContent
+                ContentTemplate="{DataTemplate view:BookmarksPage}"
+                Route="BookmarksPage" />
+        </Tab>
+    </TabBar>
+    
+
+    <!-- Shell Mixte  
+
+    <FlyoutItem Title="Bibliothèque">
+        <Tab Title="Bibliothèque" Icon="home.png">
+            <ShellContent
+                ContentTemplate="{DataTemplate view:BooksPage}"
+                Route="BooksPage" />
+        </Tab>
+        <Tab Title="Favoris" Icon="bookmark.png">
+            <ShellContent
+                ContentTemplate="{DataTemplate view:BookmarksPage}"
+                Route="BookmarksPage" />
+        </Tab>
+    </FlyoutItem>
+   -->
+
+</Shell>
+
